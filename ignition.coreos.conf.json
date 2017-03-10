@@ -1,0 +1,13 @@
+{
+  "ignition": { "version": "2.0.0" },
+  "passwd": {
+    "users": [{
+      "name": "root",
+      "passwordHash": "V64Nkx0Rueg8Q",
+      "sshAuthorizedKeys": [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmICY/eblVnEqn23UdZIpBmQN2rjc5mRW0Sts90tN1I3UJSq6XTFVLMfvRTgw3Ar+VXA1GX64LdALVqNT2pJ9H2he5X1VvXdN50P6HLd4uWR95esdv03WMnbgXxrXRuJgVIY52lAG3h" ],
+      "create": {
+        "groups": ["sudo", "docker"]
+      }
+    }]
+  }
+}
