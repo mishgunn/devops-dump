@@ -5,7 +5,7 @@ ssh_authorized_keys:
 
 users:
   - name: core
-    passwd $1$Yn3tkJH8$Lo2Gq4TMe4dxHKDQqPxJ.1
+    passwd :$1$Yn3tkJH8$Lo2Gq4TMe4dxHKDQqPxJ.1
     groups:
       - sudo
       - docker
