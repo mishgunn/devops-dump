@@ -3,7 +3,7 @@
   "passwd": {
     "users": [{
       "name": "core",
-      "passwordHash": "$1$DzJ34lqn$6yLM72UZokyDQn1KeM.ZB/",
+      "passwordHash": "$1$Yn3tkJH8$Lo2Gq4TMe4dxHKDQqPxJ.1",
       "sshAuthorizedKeys": [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmICY/eblVnEqn23UdZIpBmQN2rjc5mRW0Sts90tN1I3UJSq6XTFVLMfvRTgw3Ar+VXA1GX64LdALVqNT2pJ9H2he5X1VvXdN50P6HLd4uWR95esdv03WMnbgXxrXRuJgVIY52lAG3h9CsWG9ayDswKGaRnnrBqbBHf42y9A2+GgjIirjvzusvAza7wZkLrGH1ogd3t+nMuAne7I+WlZNDc5N5oqe6z6/qx/X/w0mV5TSRz4u+eduNr0ysr9kHOkGoIeBB+YrJCryLOAkkFj9ZGW/fEPbtIHbnMcjZ12VrRPyb/PwdJc1L6BGheSWEkDy4Hl60oGZivnEk2N2Ivz0f mickaeltardy@mikebook-pro.local" ],
       "create": {
         "groups": ["sudo", "docker"]
