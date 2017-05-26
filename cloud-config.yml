@@ -15,16 +15,15 @@ coreos:
     - name: rpc-statd.service
       command: start
       enable: true
-    - name: var-www.mount
-      command: start
-      content: |
-        [Unit]
-        Before=docker.service
-
-        [Install]
-        RequiredBy=docker.service
-
-        [Mount]
-        What=10.0.0.2:/Development/Share
-        Where=/var/www
-        Type=nfs
+    - name: static.network
+      command: | 
+        [Match]
+        Name=ens192
+        
+        [Address]
+        Address=147.135.228.148
+        Peer=217.182.175.254/32
+        
+        [Network]
+        DNS=213.186.33.99
+        Gateway=217.182.175.254
